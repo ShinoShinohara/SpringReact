@@ -3,6 +3,7 @@ import { toast } from 'react-toastify';
 import icon from '../../assets/vector.svg'
 import { BASE_URL } from '../../utils/request';
 import './style.css'
+import * as React from 'react';
 
 type Props = {
     saleId: number;

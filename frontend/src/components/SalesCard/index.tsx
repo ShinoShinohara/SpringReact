@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { BASE_URL } from "../../utils/request"
 import { Sale } from '../../models/sale';
+import * as React from 'react';
 
 function SalesCard() {
 
